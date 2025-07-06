@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros lidos</title>
+    <link rel="stylesheet" href="Livros_lidos.css">
+</head>
+<body>
+    <header>
+        <h1>Livros do Ulf :)</h1>
+    </header>
+    <section> 
+        <p>Secione um livro para mais informações:</p>
+        <p>
+            <input type="radio" name="radlivro" id="txtbanana">
+            <label for="txtbanana">Diário de um banana</label>
+            <input type="radio" name="radlivro" id="txtperdido">
+            <label for="txtperdido">O diário perdido</label>
+            <input type="button" value="Selecionar" onclick="mostrar()">
+        </p>
+        <div>
+            <input type="button" value="Emprestar" onclick="emprestar()">
+            <input type="button" value="Devolver" onclick="devolver()">
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; Ulf</p>
+    </footer>
+    <script src="Livros_lidos.js"></script>
+</body>
+</html>

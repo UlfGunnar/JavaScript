@@ -1,0 +1,18 @@
+1- 
+
+VAR: Escopo global, pode ser usado em todo código.
+
+LET: Só funciona no bloco que foi declarado, por exemplo num if ou for.
+
+2- 
+
+VAR: Caso seja mencionado, mas não tem nenhum dado, vai aparecer "undefinied"
+
+LET: Na mesma situação, vai dar ERRO
+
+3- 
+
+VAR: Pode ser redefinido várias vezes.
+
+LET: Pode ser definido apenas uma vez, se não irá dar ERRO.
+
